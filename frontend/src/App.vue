@@ -22,7 +22,7 @@ export default {
   methods: {
     async fetchMessage() {
       try {
-        const response = await fetch("http://localhost:8080/api/hello");
+        const response = await fetch("http://localhost:5000/api/hello");
         const data = await response.json();
         this.message = data.message;
       } catch (error) {
@@ -31,7 +31,7 @@ export default {
     },
     async sendData() {
       try {
-        const response = await fetch("http://localhost:8080/api/data", {
+        const response = await fetch("http://localhost:5000/api/data", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
