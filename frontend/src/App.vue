@@ -1,13 +1,6 @@
 <template>
   <div id="app">
-    <h1>Integración Vue.js + Flask</h1>
-    <button @click="fetchMessage">Obtener Mensaje</button>
-    <p>{{ message }}</p>
-
-    <form @submit.prevent="sendData">
-      <input type="text" v-model="inputData" placeholder="Escribe algo..." />
-      <button type="submit">Enviar Datos</button>
-    </form>
+    <router-view />
   </div>
 </template>
 
