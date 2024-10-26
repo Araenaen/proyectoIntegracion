@@ -1,3 +1,3 @@
 <template>
-    <div>asdasd</div>
+    <div>About Us</div>
 </template>
