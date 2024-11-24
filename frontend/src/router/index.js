@@ -7,6 +7,7 @@ import ContactPage from '@/views/ContactPage.vue';
 import NewsPage from '@/views/NewsPage.vue';
 import ServicesPage from '@/views/ServicesPage.vue';
 import StorePage from '@/views/StorePage.vue';
+import CartPage from '@/views/CartPage.vue';
 
 
 const routes = [
@@ -21,6 +22,7 @@ const routes = [
             { path: 'news', component: NewsPage },
             { path: 'services', component: ServicesPage },
             { path: 'store', component: StorePage },
+            { path: 'cart', component: CartPage },
         ],
     },
 ];
