@@ -33,9 +33,6 @@
                         <router-link class="nav-link" to="/services">Servicios</router-link>
                         </li>
                         <li class="nav-item">
-                        <router-link class="nav-link" to="/news">Noticias</router-link>
-                        </li>
-                        <li class="nav-item">
                         <router-link class="nav-link" to="/blog">Blog</router-link>
                         </li>
                         <li class="nav-item">

@@ -14,9 +14,6 @@
                         <li class="nav-item">
                         <router-link class="nav-link text-white" to="/services">Servicios</router-link>
                         </li>
-                        <li class="nav-item">
-                        <router-link class="nav-link text-white" to="/news">Noticias</router-link>
-                        </li>
                     </ul>
                 </div>
                 <div class="col-md-6 mb-3">

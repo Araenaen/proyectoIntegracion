@@ -4,7 +4,6 @@ import HomePage from '@/views/HomePage.vue';
 import AboutPage from '@/views/AboutPage.vue';
 import BlogPage from '@/views/BlogPage.vue';
 import ContactPage from '@/views/ContactPage.vue';
-import NewsPage from '@/views/NewsPage.vue';
 import ServicesPage from '@/views/ServicesPage.vue';
 import StorePage from '@/views/StorePage.vue';
 import CartPage from '@/views/CartPage.vue';
@@ -19,7 +18,6 @@ const routes = [
             { path: 'about', component: AboutPage },
             { path: 'blog', component: BlogPage },
             { path: 'contact', component: ContactPage },
-            { path: 'news', component: NewsPage },
             { path: 'services', component: ServicesPage },
             { path: 'store', component: StorePage },
             { path: 'cart', component: CartPage },
